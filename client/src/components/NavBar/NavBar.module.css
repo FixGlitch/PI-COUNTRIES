@@ -1,0 +1,17 @@
+.navContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    margin-top: 2px;
+    border: 1px solid #0f0;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5), rgba(0, 255, 0, 0.5);
+}
+
+.navContainer a {
+    margin-right: 20px;
+}
+
+.logButton {
+    margin-left: auto;
+}

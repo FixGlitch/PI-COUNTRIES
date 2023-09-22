@@ -1,0 +1,41 @@
+.detailContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+    margin: 50px auto;
+    width: 1000px;
+    height: 600px;
+    border: 1px solid #0f0;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5), rgba(0, 255, 0, 0.5);
+}
+
+.countryContainer { 
+    margin: 10px;    
+    width: 470px;
+    height: 280px;
+    border: 1px solid #0f0;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5), rgba(0, 255, 0, 0.5);
+}
+
+.activitiesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 940px;
+    height: 280px;
+    border: 1px solid #0f0;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5), rgba(0, 255, 0, 0.5);
+}
+
+.flag {
+    margin: 10px;
+    width: 480px;
+    height: 280px;
+    border: 1px solid #0f0;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5), rgba(0, 255, 0, 0.5);    
+}

@@ -1,0 +1,18 @@
+.textInputWrapper{
+    color: #0f0;
+    background: transparent;
+    padding: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.textInput {
+    color: #0f0;
+    background: transparent;
+    padding: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    outline: none;
+    border: 1px solid #0f0;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5), rgba(0, 255, 0, 0.5)
+}

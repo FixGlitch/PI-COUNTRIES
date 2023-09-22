@@ -1,0 +1,35 @@
+.selectContainer {
+    color: #0f0;
+    background: transparent;
+    padding: 10px;
+    letter-spacing: 0.1em; 
+    text-transform: uppercase;
+    outline: none;
+    border: 1px solid #0f0;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5), rgba(0, 255, 0, 0.5);
+    cursor: pointer;
+    position: relative;
+    bottom: 0px;
+    margin-right: 20px;
+}
+
+.selectContainer:hover {
+    animation: flicker2 0.1s infinite alternate;
+    color: #0f0;
+    border: 1px solid transparent;
+    box-shadow: 0 0 40px #0A0, inset 0 0 40px #0A0;
+}
+
+.selectContainer:active {
+    font-weight: bold;
+}
+
+.selectContainer:visited {
+    font-weight: bold;
+    border: 1px solid #0f0;
+}
+
+option {
+    background-color: black;
+    color: #0f0;
+}

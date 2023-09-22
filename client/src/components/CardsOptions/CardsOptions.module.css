@@ -1,0 +1,8 @@
+.optionsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+    border: 1px solid #0f0;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5), rgba(0, 255, 0, 0.5);
+}
